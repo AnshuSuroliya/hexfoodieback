@@ -1,0 +1,630 @@
+11:21:03.607 [http-nio-4900-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/api/displaycart", parameters={}
+11:21:03.619 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.CartController#displaycart(EmailRequest)
+11:21:03.619 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.EmailRequest@4b39361c]
+11:21:03.622 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+11:21:03.623 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.example.hexFoodieBack.entity.Cart@c1a29d2]
+11:21:03.623 [http-nio-4900-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+11:21:11.223 [http-nio-4900-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/api/displaycart", parameters={}
+11:21:11.223 [http-nio-4900-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.CartController#displaycart(EmailRequest)
+11:21:11.224 [http-nio-4900-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.EmailRequest@33448a02]
+11:21:11.227 [http-nio-4900-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+11:21:11.227 [http-nio-4900-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.example.hexFoodieBack.entity.Cart@2df8e183]
+11:21:11.227 [http-nio-4900-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+11:21:16.596 [http-nio-4900-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/api/displaycart", parameters={}
+11:21:16.596 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.CartController#displaycart(EmailRequest)
+11:21:16.596 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.EmailRequest@4dd0cb6]
+11:21:16.598 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+11:21:16.598 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.example.hexFoodieBack.entity.Cart@482e9298]
+11:21:16.598 [http-nio-4900-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+11:21:29.604 [http-nio-4900-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/api/displaycart", parameters={}
+11:21:29.604 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.CartController#displaycart(EmailRequest)
+11:21:29.604 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.EmailRequest@444a5d05]
+11:21:29.607 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+11:21:29.607 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.example.hexFoodieBack.entity.Cart@6795fb03]
+11:21:29.607 [http-nio-4900-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+11:21:47.621 [http-nio-4900-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/api/displaycart", parameters={}
+11:21:47.621 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.CartController#displaycart(EmailRequest)
+11:21:47.622 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.EmailRequest@7362960b]
+11:21:47.625 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+11:21:47.625 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.example.hexFoodieBack.entity.Cart@122dbc37]
+11:21:47.625 [http-nio-4900-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+11:22:02.595 [http-nio-4900-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/api/displaycart", parameters={}
+11:22:02.595 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.CartController#displaycart(EmailRequest)
+11:22:02.595 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.EmailRequest@58153219]
+11:22:02.597 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+11:22:02.597 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.example.hexFoodieBack.entity.Cart@4f969a69]
+11:22:02.598 [http-nio-4900-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+11:22:17.828 [http-nio-4900-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+11:22:17.837 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+11:22:17.850 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+11:22:17.851 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@222a738f, com.example.hexFoodieBack.entity.Restaurant@9 (truncated)...]
+11:22:17.852 [http-nio-4900-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+11:22:17.875 [http-nio-4900-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+11:22:17.875 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+11:22:17.884 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+11:22:17.884 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@4b1e62b4, com.example.hexFoodieBack.entity.Restaurant@1 (truncated)...]
+11:22:17.885 [http-nio-4900-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+11:22:23.495 [http-nio-4900-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/superAdmin/displayRestaurant", parameters={}
+11:22:23.496 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#display(LocationRequest)
+11:22:23.500 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.LocationRequest@16d2c54b]
+11:22:23.525 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+11:22:23.525 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@4d3c7cd]]
+11:22:23.526 [http-nio-4900-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+11:22:33.636 [http-nio-4900-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/superAdmin/displayRestaurant", parameters={}
+11:22:33.637 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#display(LocationRequest)
+11:22:33.653 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.LocationRequest@25b2d7b0]
+11:22:33.659 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+11:22:33.659 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@42d6cf81]]
+11:22:33.660 [http-nio-4900-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+12:25:17.503 [http-nio-4900-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/api/displaycart", parameters={}
+12:25:17.503 [http-nio-4900-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/api/displaycart", parameters={}
+12:25:17.503 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.CartController#displaycart(EmailRequest)
+12:25:17.503 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.CartController#displaycart(EmailRequest)
+12:25:17.505 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.EmailRequest@6a614d65]
+12:25:17.505 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.EmailRequest@721e575d]
+12:25:17.513 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+12:25:17.513 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.example.hexFoodieBack.entity.Cart@527fb4ce]
+12:25:17.514 [http-nio-4900-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+12:25:17.517 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+12:25:17.518 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.example.hexFoodieBack.entity.Cart@7ea99ee7]
+12:25:17.518 [http-nio-4900-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+12:29:41.311 [http-nio-4900-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+12:29:41.312 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+12:29:41.323 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+12:29:41.323 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@3f9598fb, com.example.hexFoodieBack.entity.Restaurant@4 (truncated)...]
+12:29:41.324 [http-nio-4900-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+12:29:41.331 [http-nio-4900-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+12:29:41.331 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+12:29:41.344 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+12:29:41.344 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@74d30191, com.example.hexFoodieBack.entity.Restaurant@2 (truncated)...]
+12:29:41.345 [http-nio-4900-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+12:29:42.614 [http-nio-4900-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/admin/displaymenu", parameters={}
+12:29:42.614 [http-nio-4900-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.RestaurantAdminController#displayFood(RestaurantIdRequest)
+12:29:42.622 [http-nio-4900-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/admin/displaymenu", parameters={}
+12:29:42.622 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.RestaurantAdminController#displayFood(RestaurantIdRequest)
+12:29:42.643 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.RestaurantIdRequest@1a1abadb]
+12:29:42.645 [http-nio-4900-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.RestaurantIdRequest@13f091e0]
+12:29:42.663 [http-nio-4900-exec-5] INFO  c.e.h.service.RestaurantServiceImple - [com.example.hexFoodieBack.entity.Food@56b8d7d3, com.example.hexFoodieBack.entity.Food@20323ed4]
+12:29:42.664 [http-nio-4900-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+12:29:42.664 [http-nio-4900-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Food@56b8d7d3, com.example.hexFoodieBack.entity.Food@20323ed4]]
+12:29:42.669 [http-nio-4900-exec-7] INFO  c.e.h.service.RestaurantServiceImple - [com.example.hexFoodieBack.entity.Food@65737e6d, com.example.hexFoodieBack.entity.Food@782588b4]
+12:29:42.669 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+12:29:42.669 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Food@65737e6d, com.example.hexFoodieBack.entity.Food@782588b4]]
+12:29:42.674 [http-nio-4900-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+12:29:42.686 [http-nio-4900-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+12:29:46.517 [http-nio-4900-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/api/addCartItem", parameters={}
+12:29:46.518 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.CartController#addCartItem(CartItemRequest)
+12:29:46.521 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.CartItemRequest@6de36ea0]
+12:29:46.538 [http-nio-4900-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Failed to complete request: java.lang.NullPointerException: Cannot invoke "com.example.hexFoodieBack.entity.Food.getPrice()" because "food" is null
+12:29:46.543 [http-nio-4900-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.hexFoodieBack.entity.Food.getPrice()" because "food" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.hexFoodieBack.entity.Food.getPrice()" because "food" is null
+	at com.example.hexFoodieBack.service.CartServiceImple.addCartItem(CartServiceImple.java:74)
+	at com.example.hexFoodieBack.controller.CartController.addCartItem(CartController.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:261)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:189)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at com.example.hexFoodieBack.filter.JwtAuthFilter.doFilterInternal(JwtAuthFilter.java:43)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:225)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+12:29:46.567 [http-nio-4900-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for POST "/error", parameters={}
+12:29:46.567 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+12:29:46.578 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+12:29:46.579 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Wed Feb 21 12:29:46 UTC 2024, status=500, error=Internal Server Error, path=/v1/api/addCa (truncated)...]
+12:29:46.630 [http-nio-4900-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 500
+12:34:18.252 [http-nio-4900-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/api/displaycart", parameters={}
+12:34:18.254 [http-nio-4900-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/api/displaycart", parameters={}
+12:34:18.261 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.CartController#displaycart(EmailRequest)
+12:34:18.263 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.EmailRequest@38ae826d]
+12:34:18.274 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+12:34:18.275 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.example.hexFoodieBack.entity.Cart@6d0b79e6]
+12:34:18.278 [http-nio-4900-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+12:34:18.271 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.CartController#displaycart(EmailRequest)
+12:34:18.300 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.EmailRequest@2394f9ba]
+12:34:18.311 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+12:34:18.311 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.example.hexFoodieBack.entity.Cart@7bcefe6a]
+12:34:18.314 [http-nio-4900-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+13:10:31.583 [http-nio-4900-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+13:10:31.584 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+13:10:31.600 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+13:10:31.604 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@b5292dc, com.example.hexFoodieBack.entity.Restaurant@3d (truncated)...]
+13:10:31.606 [http-nio-4900-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+13:10:31.617 [http-nio-4900-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+13:10:31.617 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+13:10:31.624 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+13:10:31.624 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@7623d968, com.example.hexFoodieBack.entity.Restaurant@3 (truncated)...]
+13:10:31.625 [http-nio-4900-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+13:10:47.084 [http-nio-4900-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/admin/displaymenu", parameters={}
+13:10:47.084 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.RestaurantAdminController#displayFood(RestaurantIdRequest)
+13:10:47.086 [http-nio-4900-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/admin/displaymenu", parameters={}
+13:10:47.086 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.RestaurantAdminController#displayFood(RestaurantIdRequest)
+13:10:47.086 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.RestaurantIdRequest@167682db]
+13:10:47.090 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.RestaurantIdRequest@1ed4fccc]
+13:10:47.096 [http-nio-4900-exec-2] INFO  c.e.h.service.RestaurantServiceImple - [com.example.hexFoodieBack.entity.Food@1cf2b457, com.example.hexFoodieBack.entity.Food@6965510b]
+13:10:47.096 [http-nio-4900-exec-6] INFO  c.e.h.service.RestaurantServiceImple - [com.example.hexFoodieBack.entity.Food@33ad4efd, com.example.hexFoodieBack.entity.Food@6e16f323]
+13:10:47.096 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+13:10:47.096 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+13:10:47.098 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Food@1cf2b457, com.example.hexFoodieBack.entity.Food@6965510b]]
+13:10:47.098 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Food@33ad4efd, com.example.hexFoodieBack.entity.Food@6e16f323]]
+13:10:47.099 [http-nio-4900-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+13:10:47.102 [http-nio-4900-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+13:11:20.500 [http-nio-4900-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/auth/login", parameters={}
+13:11:20.501 [http-nio-4900-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.UserController#login(LoginRequest)
+13:11:20.503 [http-nio-4900-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/api/createCart", parameters={}
+13:11:20.503 [http-nio-4900-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.CartController#createCart(EmailRequest)
+13:11:20.504 [http-nio-4900-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.EmailRequest@1935d2a2]
+13:11:20.525 [http-nio-4900-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.LoginRequest@182ac51d]
+13:11:20.711 [http-nio-4900-exec-4] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+13:11:20.711 [http-nio-4900-exec-4] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Duplicate entry '1' for key 'cart.UK_9emlp6m95v5er2bcqkjsw48he'
+13:11:20.766 [http-nio-4900-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Failed to complete request: org.springframework.dao.DataIntegrityViolationException: could not execute statement [Duplicate entry '1' for key 'cart.UK_9emlp6m95v5er2bcqkjsw48he'] [insert into cart (total_items,total_price,user_id) values (?,?,?)]; SQL [insert into cart (total_items,total_price,user_id) values (?,?,?)]; constraint [cart.UK_9emlp6m95v5er2bcqkjsw48he]
+13:11:20.769 [http-nio-4900-exec-4] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [Duplicate entry '1' for key 'cart.UK_9emlp6m95v5er2bcqkjsw48he'] [insert into cart (total_items,total_price,user_id) values (?,?,?)]; SQL [insert into cart (total_items,total_price,user_id) values (?,?,?)]; constraint [cart.UK_9emlp6m95v5er2bcqkjsw48he]] with root cause
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'cart.UK_9emlp6m95v5er2bcqkjsw48he'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:912)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1054)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1003)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1312)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:988)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194)
+	at org.hibernate.id.insert.GetGeneratedKeysDelegate.performInsert(GetGeneratedKeysDelegate.java:107)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorPostInsertSingleTable.execute(MutationExecutorPostInsertSingleTable.java:100)
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.doStaticInserts(InsertCoordinator.java:175)
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.coordinateInsert(InsertCoordinator.java:113)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2868)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:81)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:670)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:291)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:272)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:386)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:300)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:219)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:134)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:175)
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:93)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:77)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:54)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:774)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:758)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:364)
+	at jdk.proxy2/jdk.proxy2.$Proxy127.persist(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:319)
+	at jdk.proxy2/jdk.proxy2.$Proxy127.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:618)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:351)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:168)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:385)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:164)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:220)
+	at jdk.proxy2/jdk.proxy2.$Proxy137.save(Unknown Source)
+	at com.example.hexFoodieBack.service.CartServiceImple.createCart(CartServiceImple.java:53)
+	at com.example.hexFoodieBack.controller.CartController.createCart(CartController.java:19)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:261)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:189)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at com.example.hexFoodieBack.filter.JwtAuthFilter.doFilterInternal(JwtAuthFilter.java:43)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:225)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+13:11:20.774 [http-nio-4900-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for POST "/error", parameters={}
+13:11:20.775 [http-nio-4900-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+13:11:20.775 [http-nio-4900-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+13:11:20.777 [http-nio-4900-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Wed Feb 21 13:11:20 UTC 2024, status=500, error=Internal Server Error, path=/v1/api/creat (truncated)...]
+13:11:20.778 [http-nio-4900-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 500
+13:11:20.975 [http-nio-4900-exec-5] INFO  c.e.h.s.UserRegisterServiceImple - Login Successfull
+13:11:20.977 [http-nio-4900-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+13:11:20.977 [http-nio-4900-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.example.hexFoodieBack.response.LoginResponse@28876916]
+13:11:20.979 [http-nio-4900-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+13:11:57.786 [http-nio-4900-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+13:11:57.787 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+13:11:57.795 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+13:11:57.801 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@2a87262, com.example.hexFoodieBack.entity.Restaurant@83 (truncated)...]
+13:11:57.802 [http-nio-4900-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+13:11:57.808 [http-nio-4900-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+13:11:57.808 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+13:11:57.815 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+13:11:57.815 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@51c43286, com.example.hexFoodieBack.entity.Restaurant@2 (truncated)...]
+13:11:57.816 [http-nio-4900-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+13:12:07.991 [http-nio-4900-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/superAdmin/displayRestaurant", parameters={}
+13:12:07.991 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#display(LocationRequest)
+13:12:07.995 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.LocationRequest@76cc62b8]
+13:12:08.008 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+13:12:08.008 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@3b548d7e]]
+13:12:08.009 [http-nio-4900-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+13:12:43.371 [http-nio-4900-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/api/displaycart", parameters={}
+13:12:43.371 [http-nio-4900-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/api/displaycart", parameters={}
+13:12:43.371 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.CartController#displaycart(EmailRequest)
+13:12:43.371 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.CartController#displaycart(EmailRequest)
+13:12:43.372 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.EmailRequest@6457c8d0]
+13:12:43.378 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.EmailRequest@2c7b8198]
+13:12:43.385 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+13:12:43.385 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.example.hexFoodieBack.entity.Cart@5908cfa0]
+13:12:43.385 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+13:12:43.386 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.example.hexFoodieBack.entity.Cart@655522ed]
+13:12:43.386 [http-nio-4900-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+13:12:43.389 [http-nio-4900-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+13:13:50.054 [http-nio-4900-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+13:13:50.055 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+13:13:50.065 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+13:13:50.065 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@28b760b7, com.example.hexFoodieBack.entity.Restaurant@6 (truncated)...]
+13:13:50.066 [http-nio-4900-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+13:13:50.069 [http-nio-4900-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+13:13:50.070 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+13:13:50.075 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+13:13:50.076 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@3dd7a3d, com.example.hexFoodieBack.entity.Restaurant@5a (truncated)...]
+13:13:50.077 [http-nio-4900-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+13:13:51.597 [http-nio-4900-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/admin/displaymenu", parameters={}
+13:13:51.597 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.RestaurantAdminController#displayFood(RestaurantIdRequest)
+13:13:51.598 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.RestaurantIdRequest@3e0a3dcf]
+13:13:51.598 [http-nio-4900-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/admin/displaymenu", parameters={}
+13:13:51.599 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.RestaurantAdminController#displayFood(RestaurantIdRequest)
+13:13:51.600 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.RestaurantIdRequest@5de480ba]
+13:13:51.605 [http-nio-4900-exec-6] INFO  c.e.h.service.RestaurantServiceImple - [com.example.hexFoodieBack.entity.Food@7d9b6a58]
+13:13:51.606 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+13:13:51.606 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Food@7d9b6a58]]
+13:13:51.607 [http-nio-4900-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+13:13:51.622 [http-nio-4900-exec-2] INFO  c.e.h.service.RestaurantServiceImple - [com.example.hexFoodieBack.entity.Food@51e1b2af]
+13:13:51.622 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+13:13:51.623 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Food@51e1b2af]]
+13:13:51.623 [http-nio-4900-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+14:52:24.124 [http-nio-4900-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+14:52:24.125 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+14:52:24.134 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+14:52:24.135 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@48a2d2f1, com.example.hexFoodieBack.entity.Restaurant@1 (truncated)...]
+14:52:24.136 [http-nio-4900-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+14:52:24.150 [http-nio-4900-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+14:52:24.150 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+14:52:24.156 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+14:52:24.156 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@1d83ee17, com.example.hexFoodieBack.entity.Restaurant@6 (truncated)...]
+14:52:24.157 [http-nio-4900-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+14:53:29.226 [http-nio-4900-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/admin/displaymenu", parameters={}
+14:53:29.233 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.RestaurantAdminController#displayFood(RestaurantIdRequest)
+14:53:29.234 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.RestaurantIdRequest@34663a13]
+14:53:29.225 [http-nio-4900-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/admin/displaymenu", parameters={}
+14:53:29.235 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.RestaurantAdminController#displayFood(RestaurantIdRequest)
+14:53:29.236 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.RestaurantIdRequest@3d90acef]
+14:53:29.240 [http-nio-4900-exec-3] INFO  c.e.h.service.RestaurantServiceImple - [com.example.hexFoodieBack.entity.Food@9a1f1d6, com.example.hexFoodieBack.entity.Food@35c1a147]
+14:53:29.241 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+14:53:29.241 [http-nio-4900-exec-9] INFO  c.e.h.service.RestaurantServiceImple - [com.example.hexFoodieBack.entity.Food@4528f369, com.example.hexFoodieBack.entity.Food@15327613]
+14:53:29.241 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Food@9a1f1d6, com.example.hexFoodieBack.entity.Food@35c1a147]]
+14:53:29.241 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+14:53:29.241 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Food@4528f369, com.example.hexFoodieBack.entity.Food@15327613]]
+14:53:29.242 [http-nio-4900-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+14:53:29.242 [http-nio-4900-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+14:53:43.766 [http-nio-4900-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/admin/displaymenu", parameters={}
+14:53:43.766 [http-nio-4900-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.RestaurantAdminController#displayFood(RestaurantIdRequest)
+14:53:43.767 [http-nio-4900-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.RestaurantIdRequest@2df6d995]
+14:53:43.772 [http-nio-4900-exec-4] INFO  c.e.h.service.RestaurantServiceImple - [com.example.hexFoodieBack.entity.Food@291b2a2f, com.example.hexFoodieBack.entity.Food@b4b0afe]
+14:53:43.773 [http-nio-4900-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+14:53:43.773 [http-nio-4900-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Food@291b2a2f, com.example.hexFoodieBack.entity.Food@b4b0afe]]
+14:53:43.774 [http-nio-4900-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+14:53:51.774 [http-nio-4900-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/admin/displaymenu", parameters={}
+14:53:51.774 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.RestaurantAdminController#displayFood(RestaurantIdRequest)
+14:53:51.775 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.RestaurantIdRequest@78fb25c9]
+14:53:51.780 [http-nio-4900-exec-7] INFO  c.e.h.service.RestaurantServiceImple - [com.example.hexFoodieBack.entity.Food@10aeeb34, com.example.hexFoodieBack.entity.Food@46fc816f]
+14:53:51.781 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+14:53:51.781 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Food@10aeeb34, com.example.hexFoodieBack.entity.Food@46fc816f]]
+14:53:51.782 [http-nio-4900-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+14:54:00.417 [http-nio-4900-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+14:54:00.418 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+14:54:00.425 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+14:54:00.425 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@41def6fa, com.example.hexFoodieBack.entity.Restaurant@2 (truncated)...]
+14:54:00.426 [http-nio-4900-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+14:54:00.430 [http-nio-4900-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+14:54:00.430 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+14:54:00.435 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+14:54:00.435 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@65705d00, com.example.hexFoodieBack.entity.Restaurant@2 (truncated)...]
+14:54:00.436 [http-nio-4900-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+14:54:23.991 [http-nio-4900-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+14:54:23.991 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+14:54:23.999 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+14:54:23.999 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@16dbe884, com.example.hexFoodieBack.entity.Restaurant@4 (truncated)...]
+14:54:24.001 [http-nio-4900-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+14:54:37.769 [http-nio-4900-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+14:54:37.770 [http-nio-4900-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+14:54:37.777 [http-nio-4900-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+14:54:37.777 [http-nio-4900-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@69ae88eb, com.example.hexFoodieBack.entity.Restaurant@5 (truncated)...]
+14:54:37.778 [http-nio-4900-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+14:54:51.793 [http-nio-4900-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+14:54:51.793 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+14:54:51.799 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+14:54:51.800 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@37eed00e, com.example.hexFoodieBack.entity.Restaurant@2 (truncated)...]
+14:54:51.800 [http-nio-4900-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+14:54:58.770 [http-nio-4900-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+14:54:58.770 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+14:54:58.776 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+14:54:58.776 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@5df0b6ba, com.example.hexFoodieBack.entity.Restaurant@5 (truncated)...]
+14:54:58.777 [http-nio-4900-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+14:54:59.770 [http-nio-4900-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+14:54:59.770 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+14:54:59.777 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+14:54:59.777 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@32d37043, com.example.hexFoodieBack.entity.Restaurant@3 (truncated)...]
+14:54:59.778 [http-nio-4900-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+14:55:14.677 [http-nio-4900-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+14:55:14.677 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+14:55:14.683 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+14:55:14.684 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@339fdcb4, com.example.hexFoodieBack.entity.Restaurant@f (truncated)...]
+14:55:14.684 [http-nio-4900-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+14:55:23.764 [http-nio-4900-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+14:55:23.764 [http-nio-4900-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+14:55:23.771 [http-nio-4900-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+14:55:23.771 [http-nio-4900-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@93b3125, com.example.hexFoodieBack.entity.Restaurant@21 (truncated)...]
+14:55:23.772 [http-nio-4900-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+14:55:24.770 [http-nio-4900-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+14:55:24.770 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+14:55:24.776 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+14:55:24.776 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@4d2b24b0, com.example.hexFoodieBack.entity.Restaurant@2 (truncated)...]
+14:55:24.777 [http-nio-4900-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+14:55:33.992 [http-nio-4900-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/admin/displaymenu", parameters={}
+14:55:33.992 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.RestaurantAdminController#displayFood(RestaurantIdRequest)
+14:55:33.992 [http-nio-4900-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/admin/displaymenu", parameters={}
+14:55:33.992 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.RestaurantAdminController#displayFood(RestaurantIdRequest)
+14:55:33.993 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.RestaurantIdRequest@320cfcfb]
+14:55:33.993 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.RestaurantIdRequest@267974fe]
+14:55:34.001 [http-nio-4900-exec-7] INFO  c.e.h.service.RestaurantServiceImple - [com.example.hexFoodieBack.entity.Food@4616fd10]
+14:55:34.001 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+14:55:34.002 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Food@4616fd10]]
+14:55:34.002 [http-nio-4900-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+14:55:34.007 [http-nio-4900-exec-1] INFO  c.e.h.service.RestaurantServiceImple - [com.example.hexFoodieBack.entity.Food@7ca3364e]
+14:55:34.008 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+14:55:34.008 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Food@7ca3364e]]
+14:55:34.009 [http-nio-4900-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+14:55:36.099 [http-nio-4900-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+14:55:36.100 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+14:55:36.106 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+14:55:36.107 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@454cc29e, com.example.hexFoodieBack.entity.Restaurant@5 (truncated)...]
+14:55:36.107 [http-nio-4900-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+14:55:36.114 [http-nio-4900-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+14:55:36.114 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+14:55:36.120 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+14:55:36.120 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@4cd78e24, com.example.hexFoodieBack.entity.Restaurant@6 (truncated)...]
+14:55:36.121 [http-nio-4900-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+14:55:37.561 [http-nio-4900-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/admin/displaymenu", parameters={}
+14:55:37.561 [http-nio-4900-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.RestaurantAdminController#displayFood(RestaurantIdRequest)
+14:55:37.562 [http-nio-4900-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.RestaurantIdRequest@4eac24c6]
+14:55:37.569 [http-nio-4900-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/admin/displaymenu", parameters={}
+14:55:37.570 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.RestaurantAdminController#displayFood(RestaurantIdRequest)
+14:55:37.570 [http-nio-4900-exec-5] INFO  c.e.h.service.RestaurantServiceImple - [com.example.hexFoodieBack.entity.Food@7046736a, com.example.hexFoodieBack.entity.Food@2e7bdadb]
+14:55:37.571 [http-nio-4900-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+14:55:37.571 [http-nio-4900-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Food@7046736a, com.example.hexFoodieBack.entity.Food@2e7bdadb]]
+14:55:37.573 [http-nio-4900-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+14:55:37.574 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.RestaurantIdRequest@5877887]
+14:55:37.595 [http-nio-4900-exec-9] INFO  c.e.h.service.RestaurantServiceImple - [com.example.hexFoodieBack.entity.Food@4b07faae, com.example.hexFoodieBack.entity.Food@48e53d72]
+14:55:37.596 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+14:55:37.596 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Food@4b07faae, com.example.hexFoodieBack.entity.Food@48e53d72]]
+14:55:37.597 [http-nio-4900-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+14:55:41.031 [http-nio-4900-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+14:55:41.033 [http-nio-4900-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+14:55:41.045 [http-nio-4900-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+14:55:41.045 [http-nio-4900-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@1053716c, com.example.hexFoodieBack.entity.Restaurant@5 (truncated)...]
+14:55:41.046 [http-nio-4900-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+14:55:41.053 [http-nio-4900-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+14:55:41.053 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+14:55:41.058 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+14:55:41.059 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@31995dd4, com.example.hexFoodieBack.entity.Restaurant@3 (truncated)...]
+14:55:41.060 [http-nio-4900-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+14:55:42.086 [http-nio-4900-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/admin/displaymenu", parameters={}
+14:55:42.087 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.RestaurantAdminController#displayFood(RestaurantIdRequest)
+14:55:42.087 [http-nio-4900-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/admin/displaymenu", parameters={}
+14:55:42.087 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.RestaurantAdminController#displayFood(RestaurantIdRequest)
+14:55:42.088 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.RestaurantIdRequest@719b0fe0]
+14:55:42.089 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.RestaurantIdRequest@3e2cd13c]
+14:55:42.093 [http-nio-4900-exec-10] INFO  c.e.h.service.RestaurantServiceImple - [com.example.hexFoodieBack.entity.Food@ca62105]
+14:55:42.093 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+14:55:42.093 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Food@ca62105]]
+14:55:42.094 [http-nio-4900-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+14:55:42.098 [http-nio-4900-exec-1] INFO  c.e.h.service.RestaurantServiceImple - [com.example.hexFoodieBack.entity.Food@57a73e6]
+14:55:42.098 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+14:55:42.098 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Food@57a73e6]]
+14:55:42.099 [http-nio-4900-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+14:55:43.981 [http-nio-4900-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+14:55:43.981 [http-nio-4900-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+14:55:43.987 [http-nio-4900-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+14:55:43.988 [http-nio-4900-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@7fdddeeb, com.example.hexFoodieBack.entity.Restaurant@2 (truncated)...]
+14:55:43.988 [http-nio-4900-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+14:55:43.994 [http-nio-4900-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+14:55:43.994 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+14:55:43.998 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+14:55:43.999 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@3cf65360, com.example.hexFoodieBack.entity.Restaurant@7 (truncated)...]
+14:55:43.999 [http-nio-4900-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
