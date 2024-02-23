@@ -23,7 +23,7 @@ public class Order {
 
 
     @ManyToOne
-    @JoinColumn(name = "users_id")
+//    @JoinColumn(name = "usersId")
     @JsonIgnore
     private User user;
 
@@ -35,6 +35,9 @@ public class Order {
 
     @OneToOne
     private Address address;
+
+    @OneToOne
+    private Restaurant restaurant;
 
     private Integer totalItems;
     private Integer totalPrice;

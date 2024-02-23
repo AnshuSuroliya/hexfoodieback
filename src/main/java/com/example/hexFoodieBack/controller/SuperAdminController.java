@@ -2,10 +2,7 @@ package com.example.hexFoodieBack.controller;
 
 import com.example.hexFoodieBack.entity.Restaurant;
 import com.example.hexFoodieBack.repository.RestaurantRepository;
-import com.example.hexFoodieBack.request.NearByRequest;
-import com.example.hexFoodieBack.request.RestaurantNameRequest;
-import com.example.hexFoodieBack.request.LocationRequest;
-import com.example.hexFoodieBack.request.RestaurantRequest;
+import com.example.hexFoodieBack.request.*;
 import com.example.hexFoodieBack.response.RestaurantResponse;
 import com.example.hexFoodieBack.service.SuperAdminServiceImple;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -49,6 +46,15 @@ public class SuperAdminController {
         return new ResponseEntity<>(restaurantRepository.findAll(), HttpStatus.OK);
     }
 
+    @PostMapping("/displaysearch")
+    public ResponseEntity<List<Restaurant>> displaySearch(@RequestBody RestaurantNameRequest restaurantNameRequest){
+        return superAdminServiceImple.displaySearch(restaurantNameRequest);
+    }
+
+    @PostMapping("/displaybyid")
+    public ResponseEntity<Restaurant> displayById(@RequestBody RequestId requestId){
+        return superAdminServiceImple.displayById(requestId);
+    }
 //    @PostMapping("/nearby")
 //    public ResponseEntity<List<Restaurant>> nearBy(@RequestBody NearByRequest nearByRequest){
 //        return superAdminServiceImple.findNearByRestaurant(nearByRequest);

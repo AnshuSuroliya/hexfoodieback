@@ -20,7 +20,7 @@ public class RestaurantAdminController {
     @Autowired
     RestaurantServiceImple restaurantServiceImple;
 
-    @PostMapping("/addFoodItem")
+    @PostMapping("/addfooditem")
     public ResponseEntity<MenuResponse> addFoodItem(@RequestBody MenuRequest menuRequest){
         return restaurantServiceImple.addMenuItems(menuRequest);
     }

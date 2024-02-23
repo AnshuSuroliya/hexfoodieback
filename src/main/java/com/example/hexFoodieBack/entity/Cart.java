@@ -19,9 +19,12 @@ public class Cart {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @OneToOne(cascade = CascadeType.ALL)
+    @OneToOne
     @JsonIgnore
     private User user;
+
+    @OneToOne
+    private Restaurant restaurant;
 
     @OneToMany(mappedBy = "cart",cascade = CascadeType.ALL)
     @JsonIgnore

@@ -16,4 +16,5 @@ public class OrderRequest {
     private String state;
     private String zipcode;
     private String email;
+    private Long id;
 }

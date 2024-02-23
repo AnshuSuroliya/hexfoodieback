@@ -1,8 +1,10 @@
 package com.example.hexFoodieBack.controller;
 
+import com.example.hexFoodieBack.entity.User;
 import com.example.hexFoodieBack.exception.UserException;
 import com.example.hexFoodieBack.exception.ValidationException;
 import com.example.hexFoodieBack.repository.UserRepository;
+import com.example.hexFoodieBack.request.EmailRequest;
 import com.example.hexFoodieBack.request.LoginRequest;
 import com.example.hexFoodieBack.request.SignupRequest;
 import com.example.hexFoodieBack.response.LoginResponse;
@@ -33,5 +35,9 @@ public class UserController {
     @PostMapping("/login")
     public ResponseEntity<LoginResponse> login(@RequestBody LoginRequest loginRequest) throws ValidationException, UserException {
         return new ResponseEntity<>(userRegisterServiceImple.login(loginRequest),HttpStatus.OK);
+    }
+    @PostMapping("/getuser")
+    public ResponseEntity<User> userData(@RequestBody EmailRequest emailRequest){
+        return userRegisterServiceImple.userData(emailRequest);
     }
 }

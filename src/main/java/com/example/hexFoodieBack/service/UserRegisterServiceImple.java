@@ -6,12 +6,15 @@ import com.example.hexFoodieBack.exception.UserException;
 import com.example.hexFoodieBack.exception.ValidationException;
 import com.example.hexFoodieBack.repository.LoginAttemptRepository;
 import com.example.hexFoodieBack.repository.UserRepository;
+import com.example.hexFoodieBack.request.EmailRequest;
 import com.example.hexFoodieBack.request.LoginRequest;
 import com.example.hexFoodieBack.request.SignupRequest;
 import com.example.hexFoodieBack.response.LoginResponse;
 import com.example.hexFoodieBack.response.SignupResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
@@ -212,4 +215,14 @@ public class UserRegisterServiceImple implements UserRegisterService{
             throw new UserException("Wrong Password");
         }
     }
+
+    @Override
+    public ResponseEntity<User> userData(EmailRequest emailRequest) {
+        User user=userRepository.findByEmail(emailRequest.getEmail());
+        if(user==null){
+            return null;
+        }
+        return new ResponseEntity<>(user, HttpStatus.OK);
+    }
+
 }

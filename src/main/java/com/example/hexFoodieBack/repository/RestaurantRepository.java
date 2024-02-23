@@ -14,5 +14,10 @@ public interface RestaurantRepository extends JpaRepository<Restaurant,Long> {
     @Query("Select r from Restaurant r Where r.area=:area")
     List<Restaurant> findByLocation(@Param("area") String area);
 
+    @Query("Select r from Restaurant r Where (r.name Like %:name% Or r.cuisine Like %:name%)")
+    List<Restaurant> findByNameOrFood(@Param("name") String name);
+    @Query("Select r from Restaurant r Where r.id=:id")
+    Restaurant findByRestaurantId(@Param("id") Long id);
+
 //    List<Restaurant> findByDistance(NearByRequest nearByRequest);
 }

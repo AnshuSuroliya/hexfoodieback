@@ -3,10 +3,7 @@ package com.example.hexFoodieBack.service;
 import com.example.hexFoodieBack.entity.Restaurant;
 import com.example.hexFoodieBack.repository.LocationRespository;
 import com.example.hexFoodieBack.repository.RestaurantRepository;
-import com.example.hexFoodieBack.request.NearByRequest;
-import com.example.hexFoodieBack.request.RestaurantNameRequest;
-import com.example.hexFoodieBack.request.LocationRequest;
-import com.example.hexFoodieBack.request.RestaurantRequest;
+import com.example.hexFoodieBack.request.*;
 import com.example.hexFoodieBack.response.RestaurantResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -92,6 +89,19 @@ public class SuperAdminServiceImple implements SuperAdminService{
     public ResponseEntity<List<Restaurant>> displayRestaurant(LocationRequest locationRequest) {
         List<Restaurant> restaurants=restaurantRepository.findByLocation(locationRequest.getArea());
         return new ResponseEntity<>(restaurants,HttpStatus.OK);
+    }
+
+    @Override
+    public ResponseEntity<List<Restaurant>> displaySearch(RestaurantNameRequest restaurantNameRequest) {
+        List<Restaurant> restaurants=restaurantRepository.findByNameOrFood(restaurantNameRequest.getName());
+        return new ResponseEntity<>(restaurants,HttpStatus.OK);
+    }
+
+    @Override
+    public ResponseEntity<Restaurant> displayById(RequestId requestId) {
+        Restaurant restaurant=restaurantRepository.findByRestaurantId(requestId.getId());
+        return new ResponseEntity<>(restaurant,HttpStatus.OK);
+
     }
 
 //    public ResponseEntity<List<Restaurant>> findNearByRestaurant(NearByRequest nearByRequest){
