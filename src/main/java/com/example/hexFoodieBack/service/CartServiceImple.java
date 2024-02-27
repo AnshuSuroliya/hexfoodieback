@@ -77,6 +77,7 @@ public class CartServiceImple implements CartService{
             CartResponse cartResponse=new CartResponse();
             cartResponse.setSuccess(false);
             cartResponse.setMessage("Cart not Created");
+            log.info("Cart not Created");
             return new ResponseEntity<>(cartResponse,HttpStatus.OK);
         }
         System.out.println(cart);
@@ -98,6 +99,7 @@ public class CartServiceImple implements CartService{
             CartResponse cartResponse=new CartResponse();
             cartResponse.setMessage("Food Items added to cart successfully");
             cartResponse.setSuccess(true);
+            log.info("Food Items added to cart successfully");
             return new ResponseEntity<>(cartResponse,HttpStatus.OK);
         }
         else {
@@ -110,6 +112,7 @@ public class CartServiceImple implements CartService{
             CartResponse cartResponse=new CartResponse();
             cartResponse.setMessage("Repeated Last Item");
             cartResponse.setSuccess(true);
+            log.info("Repeated Last Item");
             return new ResponseEntity<>(cartResponse,HttpStatus.OK);
         }
 

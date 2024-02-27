@@ -15,4 +15,7 @@ public interface FoodRepository extends JpaRepository<Food,Long> {
     Food findFoodByName(@Param("name") String name);
     @Query("Select f from Food f Where f.restaurantId.id=:restaurantId")
     List<Food> findByRestaurant(@Param("restaurantId") Long restaurantId);
+
+    @Query("Select f from Food f Where f.restaurantId.name=:name")
+    List<Food> findByRestaurantName(@Param("name") String name);
 }

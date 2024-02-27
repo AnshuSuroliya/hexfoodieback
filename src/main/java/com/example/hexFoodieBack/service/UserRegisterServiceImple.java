@@ -75,6 +75,7 @@ public class UserRegisterServiceImple implements UserRegisterService{
                 u.setEmail(signupRequest.getEmail().toLowerCase());
                 u.setPassword(bCryptPasswordEncoder.encode(signupRequest.getPassword()));
                 u.setMobileNumber(signupRequest.getMobileNumber());
+                u.setRole(signupRequest.getRole());
                 userRepository.save(u);
                 SignupResponse signupResponse=new SignupResponse();
                 signupResponse.setMessage("User Registered Successfully");
@@ -147,6 +148,7 @@ public class UserRegisterServiceImple implements UserRegisterService{
                 loginResponse.setMessage("Login Successfull!");
                 loginResponse.setJwt(jwt);
                 loginResponse.setEmail(loginRequest.getEmail().toLowerCase());
+                loginResponse.setRole(user.getRole());
                 loginResponse.setSuccess(true);
                 log.info("Login Successfull");
                 return loginResponse;

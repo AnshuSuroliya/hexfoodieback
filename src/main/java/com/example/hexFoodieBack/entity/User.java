@@ -41,6 +41,12 @@ public class User {
     @JsonIgnore
     private List<Order>orders;
 
-    @Enumerated(EnumType.STRING)
-    private ERoles role;
+    private String role;
+
+    @OneToMany(mappedBy = "delivery",cascade = CascadeType.ALL,fetch = FetchType.LAZY)
+    @JsonIgnore
+    private List<Order>ordersD;
+
+//    @Enumerated(EnumType.STRING)
+//    private ERoles role;
 }

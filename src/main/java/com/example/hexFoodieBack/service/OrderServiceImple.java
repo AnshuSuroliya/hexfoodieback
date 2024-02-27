@@ -80,6 +80,7 @@ public class OrderServiceImple implements OrderService{
         createOrder.setOrderItems(orderItems);
         createOrder.setTotalPrice(cart.getTotalPrice());
         createOrder.setOrderDate(LocalDateTime.now());
+        createOrder.setOrderStatus("Placed");
         //createOrder.getPaymentDetails().setRazorpayPaymentStatus("Pending");
         createOrder.setAddress(address);
         createOrder.setRestaurant(restaurant);
@@ -100,8 +101,8 @@ public class OrderServiceImple implements OrderService{
         OrderResponse orderResponse=new OrderResponse();
         orderResponse.setMessage("Order Placed Successfully");
         orderResponse.setSuccess(true);
-        String emailBody = "This is to notify you that your order is confirmed and soon will be delivered to you";
-        sendEmail(user.getEmail(),"Order Confirmation",emailBody);
+        String emailBody = "This is to notify you that your order is placed and soon will be delivered to you. Thank you for choosing Pomato!";
+       // sendEmail(user.getEmail(),"Order Confirmation",emailBody);
         return new ResponseEntity<>(orderResponse, HttpStatus.OK);
     }
 

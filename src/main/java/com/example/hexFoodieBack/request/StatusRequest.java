@@ -1,4 +1,4 @@
-package com.example.hexFoodieBack.response;
+package com.example.hexFoodieBack.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,10 +9,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class LoginResponse {
-    private String jwt;
-    private String message;
-    private Boolean success;
+public class StatusRequest {
+    private Long id;
     private String email;
-    private String role;
 }

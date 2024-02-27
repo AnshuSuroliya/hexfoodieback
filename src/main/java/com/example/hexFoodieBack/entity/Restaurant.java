@@ -32,4 +32,8 @@ public class Restaurant {
     @JsonIgnore
     @OneToMany(mappedBy = "restaurantId",cascade = CascadeType.ALL)
     private List<Food> foods;
+
+    @JsonIgnore
+    @OneToMany(mappedBy = "restaurant",cascade = CascadeType.ALL)
+    List<Order> orders;
 }

@@ -9,10 +9,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class LoginResponse {
-    private String jwt;
+public class StatusResponse {
     private String message;
     private Boolean success;
-    private String email;
-    private String role;
 }

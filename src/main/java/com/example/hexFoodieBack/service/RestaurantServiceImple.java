@@ -2,15 +2,22 @@ package com.example.hexFoodieBack.service;
 
 
 import com.example.hexFoodieBack.entity.Food;
+import com.example.hexFoodieBack.entity.Order;
 import com.example.hexFoodieBack.entity.Restaurant;
+import com.example.hexFoodieBack.entity.User;
 import com.example.hexFoodieBack.repository.FoodRepository;
+import com.example.hexFoodieBack.repository.OrderRepository;
 import com.example.hexFoodieBack.repository.RestaurantRepository;
+import com.example.hexFoodieBack.repository.UserRepository;
 import com.example.hexFoodieBack.request.*;
 import com.example.hexFoodieBack.response.MenuResponse;
+import com.example.hexFoodieBack.response.StatusResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.mail.SimpleMailMessage;
+import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -25,6 +32,13 @@ public class RestaurantServiceImple implements RestaurantService{
 
     @Autowired
     RestaurantRepository restaurantRepository;
+    @Autowired
+    OrderRepository orderRepository;
+    @Autowired
+    UserRepository userRepository;
+
+    @Autowired
+    JavaMailSender javaMailSender;
 
 //    private MenuResponse menuResponse;
 
@@ -77,4 +91,62 @@ public class RestaurantServiceImple implements RestaurantService{
         return new ResponseEntity<>(foods,HttpStatus.OK);
     }
 
+    @Override
+    public ResponseEntity<List<Food>> getMyMenu(RestaurantNameRequest restaurantNameRequest) {
+        List<Food> foods=foodRepository.findByRestaurantName(restaurantNameRequest.getName());
+        return new ResponseEntity<>(foods,HttpStatus.OK);
+    }
+
+    @Override
+    public ResponseEntity<StatusResponse> orderState(StatusRequest statusRequest) {
+        Order order=orderRepository.findByOrderId(statusRequest.getId());
+        User user=userRepository.findByEmail(statusRequest.getEmail());
+        order.setOrderStatus("Confirmed");
+        orderRepository.save(order);
+        StatusResponse statusResponse=new StatusResponse();
+        statusResponse.setMessage("Order Accepted");
+        statusResponse.setSuccess(true);
+        String emailBody = "This is to notify you that your order is Accepted by restaurant and soon will be delivered to you";
+       // sendEmail(user.getEmail(),"Order Accepted",emailBody);
+        return new ResponseEntity<>(statusResponse,HttpStatus.OK);
+    }
+
+    @Override
+    public ResponseEntity<List<Order>> getUserOrders(EmailRequest emailRequest) {
+        log.info(emailRequest.getEmail());
+        User user=userRepository.findByEmail(emailRequest.getEmail());
+        List<Order> orders=orderRepository.getUserOrders(user.getName());
+        return new ResponseEntity<>(orders,HttpStatus.OK);
+    }
+
+    @Override
+    public ResponseEntity<Restaurant> getRestaurant(EmailRequest emailRequest) {
+        User user=userRepository.findByEmail(emailRequest.getEmail());
+        Restaurant restaurant=restaurantRepository.findByName(user.getName());
+        return new ResponseEntity<>(restaurant,HttpStatus.OK);
+    }
+
+    @Override
+    public ResponseEntity<StatusResponse> denyOrder(StatusRequest statusRequest) {
+        Order order=orderRepository.findByOrderId(statusRequest.getId());
+        User user=userRepository.findByEmail(statusRequest.getEmail());
+        order.setOrderStatus("Denied");
+        orderRepository.save(order);
+        StatusResponse statusResponse=new StatusResponse();
+        statusResponse.setMessage("Order Denied");
+        statusResponse.setSuccess(true);
+        String emailBody = "This is to notify you that your order is Denied by restaurant";
+        // sendEmail(user.getEmail(),"Order Accepted",emailBody);
+        return new ResponseEntity<>(statusResponse,HttpStatus.OK);
+
+    }
+
+    private void sendEmail(String to,String subject,String message) {
+        SimpleMailMessage mailMessage = new SimpleMailMessage();
+        mailMessage.setTo(to);
+        mailMessage.setSubject(subject);
+        mailMessage.setText(message);
+        log.info("fddf");
+        javaMailSender.send(mailMessage);
+    }
 }

@@ -36,10 +36,14 @@ public class Order {
     @OneToOne
     private Address address;
 
-    @OneToOne
+    @ManyToOne
     private Restaurant restaurant;
 
     private Integer totalItems;
     private Integer totalPrice;
     private String orderStatus;
+
+    @ManyToOne
+    @JsonIgnore
+    private User delivery;
 }

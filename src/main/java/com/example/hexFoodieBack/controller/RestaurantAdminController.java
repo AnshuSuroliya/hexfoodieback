@@ -1,9 +1,11 @@
 package com.example.hexFoodieBack.controller;
 
 import com.example.hexFoodieBack.entity.Food;
+import com.example.hexFoodieBack.entity.Order;
 import com.example.hexFoodieBack.entity.Restaurant;
 import com.example.hexFoodieBack.request.*;
 import com.example.hexFoodieBack.response.MenuResponse;
+import com.example.hexFoodieBack.response.StatusResponse;
 import com.example.hexFoodieBack.service.RestaurantServiceImple;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -35,5 +37,25 @@ public class RestaurantAdminController {
         return restaurantServiceImple.displayMenu(restaurantIdRequest);
     }
 
+    @PostMapping("/getmenu")
+    public ResponseEntity<List<Food>> getMyMenu(@RequestBody RestaurantNameRequest restaurantNameRequest){
+        return restaurantServiceImple.getMyMenu(restaurantNameRequest);
+    }
+    @PostMapping("/orderstate")
+    public ResponseEntity<StatusResponse> orderState(@RequestBody StatusRequest statusRequest){
+        return restaurantServiceImple.orderState(statusRequest);
+    }
+    @PostMapping("/getuserorders")
+    public ResponseEntity<List<Order>> getUserOrders(@RequestBody EmailRequest emailRequest){
+        return restaurantServiceImple.getUserOrders(emailRequest);
+    }
 
+    @PostMapping("/getrestaurant")
+    public ResponseEntity<Restaurant> getRestaurant(@RequestBody EmailRequest emailRequest){
+        return restaurantServiceImple.getRestaurant(emailRequest);
+    }
+    @PostMapping("/denyorder")
+    public  ResponseEntity<StatusResponse> denyOrder(@RequestBody StatusRequest statusRequest){
+        return restaurantServiceImple.denyOrder(statusRequest);
+    }
 }

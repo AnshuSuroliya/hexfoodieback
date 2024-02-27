@@ -8,4 +8,5 @@ public class SignupRequest {
     private  String mobileNumber;
     private String name;
     private String password;
+    private String role;
 }
