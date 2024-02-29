@@ -15,4 +15,5 @@ public class MenuRequest {
     private Integer price;
     private String imageUrl;
     private String restaurantName;
+    private Long id;
 }

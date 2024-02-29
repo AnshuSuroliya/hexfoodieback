@@ -19,4 +19,5 @@ public class RestaurantRequest {
     private String area;
     private String zipcode;
     private String city;
+    private Long id;
 }

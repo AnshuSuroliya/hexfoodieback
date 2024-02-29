@@ -48,8 +48,8 @@ public class SuperAdminServiceImple implements SuperAdminService{
         }
     }
 
-    public ResponseEntity<RestaurantResponse> deleteRestaurant(RestaurantNameRequest restaurantNameRequest){
-        Restaurant restaurant=restaurantRepository.findByName(restaurantNameRequest.getName());
+    public ResponseEntity<RestaurantResponse> deleteRestaurant(DeleteFoodRequest deleteFoodRequest){
+        Restaurant restaurant=restaurantRepository.findByRestaurantId(deleteFoodRequest.getId());
         if(restaurant==null){
             RestaurantResponse restaurantResponse=new RestaurantResponse();
             restaurantResponse.setSuccess(false);
@@ -65,7 +65,7 @@ public class SuperAdminServiceImple implements SuperAdminService{
 
     @Override
     public ResponseEntity<RestaurantResponse> updateRestaurant(RestaurantRequest restaurantRequest) {
-        Restaurant restaurant=restaurantRepository.findByName(restaurantRequest.getName());
+        Restaurant restaurant=restaurantRepository.findByRestaurantId(restaurantRequest.getId());
         if(restaurant==null){
             RestaurantResponse restaurantResponse=new RestaurantResponse();
             restaurantResponse.setSuccess(false);

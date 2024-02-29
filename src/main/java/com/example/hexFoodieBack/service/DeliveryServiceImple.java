@@ -35,7 +35,7 @@ public class DeliveryServiceImple implements DeliveryService{
     public ResponseEntity<StatusResponse> DeliveryState(StatusRequest statusRequest) {
         Order order=orderRepository.findByOrderId(statusRequest.getId());
         User user=userRepository.findByEmail(statusRequest.getEmail());
-        order.setOrderStatus("Accepted");
+        order.setOrderStatus("Picked Up");
         order.setDelivery(user);
         orderRepository.save(order);
         StatusResponse statusResponse=new StatusResponse();

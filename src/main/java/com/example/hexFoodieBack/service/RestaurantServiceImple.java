@@ -67,7 +67,7 @@ public class RestaurantServiceImple implements RestaurantService{
         }
     }
     public ResponseEntity<MenuResponse> deleteMenuItems(DeleteFoodRequest deleteFoodRequest){
-        Food food=foodRepository.findFoodByName(deleteFoodRequest.getName());
+        Food food=foodRepository.findFoodById(deleteFoodRequest.getId());
         if(food==null){
             MenuResponse menuResponse=new MenuResponse();
             menuResponse.setMessage("No food item found");
@@ -92,8 +92,9 @@ public class RestaurantServiceImple implements RestaurantService{
     }
 
     @Override
-    public ResponseEntity<List<Food>> getMyMenu(RestaurantNameRequest restaurantNameRequest) {
-        List<Food> foods=foodRepository.findByRestaurantName(restaurantNameRequest.getName());
+    public ResponseEntity<List<Food>> getMyMenu(EmailRequest emailRequest) {
+        User user=userRepository.findByEmail(emailRequest.getEmail());
+        List<Food> foods=foodRepository.findByRestaurantName(user.getName());
         return new ResponseEntity<>(foods,HttpStatus.OK);
     }
 
@@ -140,6 +141,33 @@ public class RestaurantServiceImple implements RestaurantService{
         return new ResponseEntity<>(statusResponse,HttpStatus.OK);
 
     }
+
+    @Override
+    public ResponseEntity<MenuResponse> updateMenu(MenuRequest menuRequest) {
+        Food food=foodRepository.findFoodById(menuRequest.getId());
+        if(food==null){
+            MenuResponse menuResponse=new MenuResponse();
+            menuResponse.setMessage("No food Item found");
+            menuResponse.setSuccess(false);
+            return new ResponseEntity<>(menuResponse,HttpStatus.OK);
+        }
+        food.setName(menuRequest.getName());
+        food.setPrice(menuRequest.getPrice());
+        food.setCategory(menuRequest.getCategory());
+        food.setImageUrl(menuRequest.getImageUrl());
+        foodRepository.save(food);
+        MenuResponse menuResponse=new MenuResponse();
+        menuResponse.setSuccess(true);
+        menuResponse.setMessage("Updated Successfully");
+        return new ResponseEntity<>(menuResponse,HttpStatus.OK);
+    }
+
+    @Override
+    public ResponseEntity<Food> getFoodById(DeleteFoodRequest deleteFoodRequest) {
+        Food food=foodRepository.findFoodById(deleteFoodRequest.getId());
+        return new ResponseEntity<>(food,HttpStatus.OK);
+    }
+
 
     private void sendEmail(String to,String subject,String message) {
         SimpleMailMessage mailMessage = new SimpleMailMessage();

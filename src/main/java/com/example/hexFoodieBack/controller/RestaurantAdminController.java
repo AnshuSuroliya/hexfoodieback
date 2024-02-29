@@ -27,7 +27,7 @@ public class RestaurantAdminController {
         return restaurantServiceImple.addMenuItems(menuRequest);
     }
 
-    @PostMapping("/deleteFoodItem")
+    @PostMapping("/deletefooditem")
     public ResponseEntity<MenuResponse> deleteFooditem(@RequestBody DeleteFoodRequest deleteFoodRequest){
         return restaurantServiceImple.deleteMenuItems(deleteFoodRequest);
     }
@@ -38,8 +38,8 @@ public class RestaurantAdminController {
     }
 
     @PostMapping("/getmenu")
-    public ResponseEntity<List<Food>> getMyMenu(@RequestBody RestaurantNameRequest restaurantNameRequest){
-        return restaurantServiceImple.getMyMenu(restaurantNameRequest);
+    public ResponseEntity<List<Food>> getMyMenu(@RequestBody EmailRequest emailRequest){
+        return restaurantServiceImple.getMyMenu(emailRequest);
     }
     @PostMapping("/orderstate")
     public ResponseEntity<StatusResponse> orderState(@RequestBody StatusRequest statusRequest){
@@ -57,5 +57,13 @@ public class RestaurantAdminController {
     @PostMapping("/denyorder")
     public  ResponseEntity<StatusResponse> denyOrder(@RequestBody StatusRequest statusRequest){
         return restaurantServiceImple.denyOrder(statusRequest);
+    }
+    @PostMapping("/updateitem")
+    public ResponseEntity<MenuResponse> updateItem(@RequestBody MenuRequest menuRequest){
+        return restaurantServiceImple.updateMenu(menuRequest);
+    }
+    @PostMapping("/getfoodbyid")
+    public ResponseEntity<Food> getFoodById(@RequestBody DeleteFoodRequest deleteFoodRequest){
+        return restaurantServiceImple.getFoodById(deleteFoodRequest);
     }
 }

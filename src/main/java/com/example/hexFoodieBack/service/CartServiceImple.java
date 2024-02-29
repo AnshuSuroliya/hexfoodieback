@@ -138,6 +138,7 @@ public class CartServiceImple implements CartService{
         CartItems cartItems=cartItemRepository.findByItemId(cartItemRequest.getId(), cartItemRequest.getEmail());
         Food food=foodRepository.findFoodById(cartItemRequest.getId());
         if(cartItems==null){
+            log.info("Item Not Found");
             CartResponse cartResponse=new CartResponse();
             cartResponse.setMessage("Item not found");
             cartResponse.setSuccess(false);
@@ -149,19 +150,32 @@ public class CartServiceImple implements CartService{
             cartItemRepository.save(cartItems);
             Cart cart = findUserCart(cartItemRequest.getEmail());
             cartRepository.save(cart);
+            log.info("Quantity Decreased");
             CartResponse cartResponse=new CartResponse();
             cartResponse.setMessage("Item removed");
             cartResponse.setSuccess(false);
             return new ResponseEntity<>(cartResponse,HttpStatus.OK);
 
         }
+        Cart cart=cartRepository.findUserByEmail(cartItemRequest.getEmail());
+        if(cart.getTotalItems()<2) {
+            cartItemRepository.delete(cartItems);
+            Cart cart1 = findUserCart(cartItemRequest.getEmail());
+            cartRepository.delete(cart1);
+            log.info("Item removed");
+            CartResponse cartResponse = new CartResponse();
+            cartResponse.setMessage("Item removed");
+            cartResponse.setSuccess(false);
+            return new ResponseEntity<>(cartResponse, HttpStatus.OK);
+        }
         cartItemRepository.delete(cartItems);
-        Cart cart = findUserCart(cartItemRequest.getEmail());
-        cartRepository.delete(cart);
-        CartResponse cartResponse=new CartResponse();
+        Cart cart1 = findUserCart(cartItemRequest.getEmail());
+        cartRepository.save(cart1);
+        log.info("Item removed");
+        CartResponse cartResponse = new CartResponse();
         cartResponse.setMessage("Item removed");
         cartResponse.setSuccess(false);
-        return new ResponseEntity<>(cartResponse,HttpStatus.OK);
+        return new ResponseEntity<>(cartResponse, HttpStatus.OK);
     }
     @Override
     public ResponseEntity<Cart> displayCart(EmailRequest emailRequest) {

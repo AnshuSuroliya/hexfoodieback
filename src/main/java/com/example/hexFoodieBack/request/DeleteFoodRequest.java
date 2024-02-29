@@ -10,5 +10,5 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 public class DeleteFoodRequest {
-    private String name;
+    private Long id;
 }

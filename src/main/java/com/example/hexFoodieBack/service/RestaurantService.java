@@ -19,7 +19,7 @@ public interface RestaurantService {
 
     ResponseEntity<List<Food>> displayMenu(RestaurantIdRequest restaurantIdRequest);
 
-    ResponseEntity<List<Food>> getMyMenu(RestaurantNameRequest restaurantNameRequest);
+    ResponseEntity<List<Food>> getMyMenu(EmailRequest emailRequest);
 
     ResponseEntity<StatusResponse> orderState(StatusRequest statusRequest);
 
@@ -28,5 +28,9 @@ public interface RestaurantService {
     ResponseEntity<Restaurant> getRestaurant(EmailRequest emailRequest);
 
     ResponseEntity<StatusResponse> denyOrder(StatusRequest statusRequest);
+
+    ResponseEntity<MenuResponse> updateMenu(MenuRequest menuRequest);
+
+    ResponseEntity<Food> getFoodById(DeleteFoodRequest deleteFoodRequest);
 
 }

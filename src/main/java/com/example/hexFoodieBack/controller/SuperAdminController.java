@@ -27,12 +27,12 @@ public class SuperAdminController {
         return superAdminServiceImple.addRestaurant(restaurantRequest);
     }
 
-    @PostMapping("/deleteRestaurant")
-    public ResponseEntity<RestaurantResponse> deleteRestaurant(@RequestBody RestaurantNameRequest restaurantNameRequest){
-        return superAdminServiceImple.deleteRestaurant(restaurantNameRequest);
+    @PostMapping("/deleterestaurant")
+    public ResponseEntity<RestaurantResponse> deleteRestaurant(@RequestBody DeleteFoodRequest deleteFoodRequest){
+        return superAdminServiceImple.deleteRestaurant(deleteFoodRequest);
     }
 
-    @PostMapping("/updateRestaurant")
+    @PostMapping("/updaterestaurant")
     public ResponseEntity<RestaurantResponse> updateRestaurant(@RequestBody RestaurantRequest restaurantRequest){
         return superAdminServiceImple.updateRestaurant(restaurantRequest);
     }
